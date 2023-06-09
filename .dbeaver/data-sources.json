@@ -1,0 +1,30 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-179124210f7-15fad113a418f112": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "Database.db",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"database": "D:\\book\\Books\\Database.db",
+				"url": "jdbc:sqlite:D:\\book\\Books\\Database.db",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
